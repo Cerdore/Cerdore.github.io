@@ -1,0 +1,324 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1440px;
+	height: 1112px;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	line-height: 1.333;
+	text-align: center
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #000
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #F00
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.bgDiv {
+	z-index: -1;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/bg.png);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	/* 兼容Webkit内核浏览器如Chrome和Safari */
+	-o-background-size: cover;
+	/* 兼容Opera */
+	zoom: 1;
+}
+
+#max {
+	position: relative;
+	width: 1440px;
+	height: 1804px;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+}
+
+#max .nav {
+	width: 1440px;
+	height: 91px;
+	background-color: rgb(196, 196, 196);
+}
+
+.nav .logo {
+	width: 80px;
+	height: 80px;
+	padding-top: 5px;
+	margin-left: 232px;
+	margin-right: 60px;
+	float: left;
+}
+
+.nav .word {
+	font-size: 20px;
+	color: white;
+	width: 840px;
+	height: 91px;
+	float: left;
+	background-color: rgb(255, 173, 75);
+	box-shadow: 0px 1px 2px 0px rgba(179, 178, 179, 1);
+}
+
+.word .typewords {
+	width: 840px;
+	height: 91px;
+	margin: 0 auto;
+}
+
+.word .typewords li {
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 20%;
+}
+
+.word .typewords a {
+	display: block;
+	height: 91px;
+	font-size: 20px;
+	color: white;
+	line-height: 84px;
+	text-align: center;
+	letter-spacing: 6px;
+}
+
+.word .typewords a:hover,
+.word .typewords .index a {
+	background-color: rgb(51, 51, 51);
+	text-decoration: none;
+}
+
+#max .main {
+	width: 1014px;
+	height: 1480px;
+	z-index: 0;
+	margin: 0 auto
+}
+
+#max .footer {
+	position: absolute;
+	width: 1440px;
+	height: 246px;
+	background: #FFF;
+}
+
+.footer .img1 {
+	position: absolute;
+	left: 230px;
+	top: 41px;
+}
+
+.footer .img2 {
+	position: absolute;
+	left: 418px;
+	top: 41px;
+}
+
+.footer .img3 {
+	position: absolute;
+	left: 646px;
+	top: 61px;
+}
+
+.footer .img4 {
+	position: absolute;
+	left: 836px;
+	top: 61px;
+}
+
+.footer .img5 {
+	position: absolute;
+	left: 964px;
+	top: 61px;
+}
+
+.footer .img6 {
+	position: absolute;
+	left: 1094px;
+	top: 61px;
+}
+
+.footer .wz1 {
+	position: absolute;
+	left: 321px;
+	top: 77px;
+	font-size: 18px;
+	font-family: "黑体";
+	line-height: 5px;
+}
+
+.footer .wz2 {
+	position: absolute;
+	left: 518px;
+	top: 77px;
+	font-size: 18px;
+	font-family: "黑体";
+	line-height: 5px;
+}
+
+.footer .wz3 {
+	position: absolute;
+	left: 707px;
+	top: 77px;
+	font-size: 18px;
+	font-family: "黑体";
+	line-height: 5px;
+}
+
+.main .hr {
+	width: 949px;
+	height: 2px;
+	position: relative;
+	left: 35px;
+	top: 50px;
+	border: 0;
+	background-color: #a0a0a0
+}
+
+.main .wz4 {
+	position: absolute;
+	left: 273px;
+	top: 117px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: bold
+}
+
+.main .wz5 {
+	position: absolute;
+	left: 375px;
+	top: 117px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: bold
+}
+
+.main .wz6 {
+	position: absolute;
+	left: 1070px;
+	top: 117px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: bold
+}
+
+.main .images1 {
+	position: absolute;
+	left: 247px;
+	top: 171px;
+}
+
+.main .images2 {
+	position: absolute;
+	left: 579px;
+	top: 171px;
+}
+
+.main .images3 {
+	position: absolute;
+	left: 907px;
+	top: 171px;
+}
+
+.main .images4 {
+	position: absolute;
+	left: 247px;
+	top: 498px;
+}
+
+.main .images5 {
+	position: absolute;
+	left: 579px;
+	top: 498px;
+}
+
+.main .images6 {
+	position: absolute;
+	left: 907px;
+	top: 498px;
+}
+
+.main .images7 {
+	position: absolute;
+	left: 247px;
+	top: 822px;
+}
+
+.main .images8 {
+	position: absolute;
+	left: 579px;
+	top: 822px;
+}
+
+.main .images9 {
+	position: absolute;
+	left: 907px;
+	top: 822px;
+}
+
+.main .images10 {
+	position: absolute;
+	left: 247px;
+	top: 1149px;
+}
+
+.main .images11 {
+	position: absolute;
+	left: 579px;
+	top: 1149px;
+}
+
+.main .images12 {
+	position: absolute;
+	left: 907px;
+	top: 1149px;
+}
+
+.main .bt1 {
+	position: absolute;
+	left: 1007px;
+	top: 1506px;
+	color: #000;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+
+.main .bt2 {
+	position: absolute;
+	left: 1143px;
+	top: 1506px;
+	color: #000;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}

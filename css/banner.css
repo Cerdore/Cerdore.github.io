@@ -1,0 +1,219 @@
+/*banner01*/
+
+.focus {
+	position: relative;
+	width: 980px;
+	height: 376px;
+	background-color: #000;
+	
+}
+
+.focus img {
+	width: 980px;
+	height: 376px;
+}
+
+.focus .btn {
+	position: absolute;
+	bottom: 34px;
+	left: 510px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.focus .btn a:hover,
+.focus .btn a.current {
+	cursor: pointer;
+	background: #fc114a;
+}
+
+.focus .fPic {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.focus .D1fBt {
+	overflow: hidden;
+	zoom: 1;
+	height: 16px;
+	z-index: 10;
+}
+
+.focus .shadow {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0px;
+	z-index: 10;
+	height: 80px;
+	line-height: 80px;
+	background: rgba(0, 0, 0, 0.6);
+	filter: progid: DXImageTransform.Microsoft.gradient( GradientType=0, startColorstr='#80000000', endColorstr='#80000000')\9;
+	display: block;
+	text-align: left;
+}
+
+.focus .shadow a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	overflow: hidden;
+	margin-left: 10px;
+	font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+
+.focus .fcon {
+	position: relative;
+	width: 100%;
+	float: left;
+	display: none;
+	background: #000
+}
+
+.focus .fcon img {
+	display: block;
+}
+
+.focus .fbg {
+	bottom: 25px;
+	right: 40px;
+	position: absolute;
+	height: 21px;
+	text-align: center;
+	z-index: 200;
+}
+
+.focus .fbg div {
+	margin: 4px auto 0;
+	overflow: hidden;
+	zoom: 1;
+	height: 14px
+}
+
+.focus .prev,
+.focus .next {
+	position: absolute;
+	width: 57px;
+	height: 57px;
+	background:  no-repeat;
+}
+
+.focus .prev {
+	top: 50%;
+	margin-top: -37px;
+	left: 29px;
+	background-image: url(../images/banner_pre.png);
+	cursor: pointer;
+}
+
+.focus .next {
+	top: 50%;
+	margin-top: -37px;
+	right: 29px;
+	background-image: url(../images/banner_next.png);
+	cursor: pointer;
+}
+
+.focus .prev:hover ,.focus .next:hover{
+	filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;
+}
+
+/*banner02*/
+
+.people {
+	margin-top: 10px;
+	height: 276px;
+	overflow: hidden;
+	width: 675px;
+	background-image: url(../images/person_bg.png);
+}
+
+.people .tit{
+	margin-top: 19px;
+	margin-bottom: 2px;
+	width: 675px;
+	height: 36px;
+	font-size: 30px;
+}
+
+.people .tit img{
+	float: left;
+	margin: 3px 2% 0 40%;
+}
+
+.people hr{
+	height: 2px;
+	width: 623px;
+	margin-left: 3.5%;
+	float: left;
+	border: none;
+	border-top: 2px solid rgb(225,129,61);
+}
+.mr_frbox {
+	margin-top: 32px;
+	height: 147px;
+}
+
+.mr_frBtnL {
+	float: left;
+	width: 25px;
+	height: 50px;
+	margin: 40px 10px 0 5px;
+	cursor: pointer;
+	display: inline;
+	background-image: url(../images/mfrl.png);
+}
+
+.mr_frBtnL:hover{
+	background-image: url(../images/prev_black.png);
+}
+
+.mr_frUl {
+	float: left;
+	height: 202px;
+	width: 510px;
+	margin-left: 10px;
+}
+
+.mr_frBtnR {
+	float: right;
+	margin-top: 40px;
+	margin-right: 5px;
+	cursor: pointer;
+	width: 25px;
+	height: 50px;
+	background-image: url(../images/mfrr.png);
+}
+
+.mr_frBtnR:hover{
+	background-image: url(../images/next_black.png);
+}
+
+.mr_frUl ul li {
+	display: inline;
+	float: left;
+	/*height:389px;*/
+	width: 195px;
+	overflow: hidden;
+	position: relative;
+}
+
+.mr_frUl ul li a img {
+	display:block;
+	width: 95%;
+}
+
+.people .learnmore{
+	font-size: 14px;
+	margin-right: 26px;
+	float: right;
+}
+
+.people .learnmore a{
+	color: rgb(51,51,51);
+}
+
+.people .learnmore a:hover{
+	color: rgb(204,102,0);
+}

@@ -1,0 +1,308 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 1440px;
+/*	height: 2527px;*/
+	margin: 0 auto;
+	padding: 0;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+
+a{text-decoration: none; color: black;}
+a:hover{text-decoration:none;} 
+li{list-style: none;}
+
+.bgDiv{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+#max{
+	width: 100%;
+/*	height: 2527px;*/
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+}
+
+#max .nav{
+	width: 100%;
+	height: 91px;
+	background-color: rgb(196,196,196);
+}
+
+.nav .logo{
+	width: 80px;
+	height: 80px;
+	padding-top: 5px;
+	margin-left: 232px;
+	margin-right: 60px;
+	float: left;
+}
+
+.nav .word{
+	 font-size: 20px;
+	 color: white;
+	 width: 840px;
+	 height: 91px;
+	 float: left;
+	 background-color: rgb(255,173,75);
+	 box-shadow: 0px 1px 2px 0px rgba(179,178,179,1);
+}
+
+.word .typewords{
+    width: 840px;
+    height: 91px;
+    margin: 0 auto;
+}
+
+.word .typewords li{
+	padding: 0;
+	margin: 0;
+    float: left;
+    width: 20%;
+}
+
+.word .typewords a{
+	display: block;
+	height: 91px;
+	font-size: 20px;
+	color: white;
+	line-height: 84px;
+	text-align: center;
+	letter-spacing: 6px;
+}
+
+.word .typewords a:hover,.word .typewords .index a{
+	background-color: rgb(51,51,51);
+    text-decoration: none;
+}
+
+#max .contain{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 54px;
+}
+
+/*banner单独一个css*/
+
+.contain .act_inform{
+	width: 980px;
+	height: 401px;
+	margin-top: 5px;
+}
+
+.contain .act_inform .act{
+	float: left;
+	width: 675px;
+	height: 400px;
+	margin-right: 12px;
+	background-image: url(../images/act_bg.png);
+}
+
+.act .act_word{
+	margin-left: 125px;
+}
+
+.act .act_word li{
+	margin-top: 20px;
+}
+
+.act .act_word a{
+	color: #000000;
+}
+
+.act .act_word a:hover{
+	font-weight: 600;
+}
+
+.contain .act_inform .inform{
+	float: left;
+	width: 293px;
+	height: 400px;
+	background-image: url(../images/inform_bg.png);
+}
+
+.inform .inform_word{
+	margin-top: 74px;
+	margin-left: 34px;
+	font-size: 16px;
+	color: white;
+}
+
+.inform .inform_word li{
+	margin-bottom: 24px;
+}
+
+.inform .inform_word  a{
+	color:  white;
+}
+
+.inform .more a{
+	color:  white;
+	font-size: 14px;
+	float: right;
+	margin-right: 49px;
+}
+
+.inform .more a:hover{
+	font-weight: 600;
+	color: rgb(204,201,0);
+}
+
+.pho{
+	width: 675px;
+	height: 500px;
+	margin-top: 10px;
+	background-image: url(../images/pho_bg.png);
+}
+
+.pho .tit{
+	width: 222px;
+	height: 201px;
+	padding-top: 13px;
+	margin-left: 55px;
+	margin-right: 47px;
+	float: left;
+}
+
+.pho img{
+	float: left;
+}
+
+.pho .pic1{
+	margin: 8px 0;
+}
+
+.pho .pic2{
+	margin: 0 8px;
+}
+
+.pho .pic3{
+	margin-right: 8px;
+}
+
+.myname{
+	width: 675px;
+	height: 494px;
+	margin-top: 10px;
+	font-size: 16px;
+	background-image: url(../images/name_bg.png);
+}
+
+.myname img,p{
+	float: left;
+}
+
+.myname p{}
+
+.myname .title{
+	width: 675px;
+	height: 56px;
+	font-size: 20px;
+}
+
+.myname .title img{
+	margin: 11px 4px 0 40%;
+}
+
+.myname .title p{
+	margin-top: 15px;
+}
+
+.myname ul{
+	width: 45%;
+	margin-left: 18px;
+	float: left;
+}
+
+.myname .word .tit{
+	width: 100%;
+	font-size: 20px;
+	float: left;
+	margin-left: 20%;
+	margin-bottom: 5px;
+}
+
+.myname .word .tit p{
+	margin-top: 2px;
+	margin-left: 18px;
+}
+
+.myname .word .tit a:hover{
+	color: rgb(55,60,85);
+}
+
+.myname .word li{
+	width: 45%;
+	height: 18px;
+	float: left;
+	margin-bottom: 11px;
+}
+
+.myname .word li img,.myname li p{
+	float: left;
+}
+
+
+#max .footer{
+	width: 100%;
+	height: 197px;
+	padding-top: 44px;
+	margin-top: 104px;
+	background-color: white;
+}
+
+.footer img,.footer p,.footer div{
+	float: left;
+}
+
+.footer .stu_union{
+	margin-left: 232px;
+	width: 172px;
+	height: 92px;
+}
+
+.footer .league{
+	width: 172px;
+	height: 92px;
+	margin-left: 30px;
+}
+
+.footer .stu_union p,.footer .league p{
+	margin-top: 25px;
+	margin-left: 14px;
+}
+
+.footer .team{
+	width: 172px;
+	height: 92px;
+	margin-top: 17px;
+	margin-left: 54px;
+}
+
+.footer .team p{
+	margin-top: 10px;
+	margin-left: 14px;
+}
+
+.footer .wechat,.sina,.tencent{
+	margin-top: 17px;
+}
+
+.footer .wechat{
+	margin-left: 30px;
+	margin-right: 50px;
+}
+
+.footer .sina{
+	margin-right: 50px;
+}
