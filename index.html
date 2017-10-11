@@ -1,6 +1,80 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>这是我使用github pages搭建的个人站点。</h1>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<title>影像印记</title>
+		<link rel="stylesheet" type="text/css" href="css/yxyj.css" />
+		<script type="text/javascript" src="js/bg.js"></script>
+	</head>
+	<body onresize="pageResize()">
+		<!--    背景图片    -->
+		<div class="bgDiv">
+			<img id="bgImg" src="img/bg.png" />
+		</div>
+		<div id="max">
+			<div class="nav">
+				<div class="logo">
+					<img src="img/logo.png" />
+				</div>
+				<div class="word">
+					<ul class="typewords">
+						<li class="index" style="left:0 ;">
+							<a href="#">首页</a>
+						</li>
+						<li class="qcdt">
+							<a href="#">青春动态</a>
+						</li>
+						<li class="ccrw">
+							<a href="#">出彩人物</a>
+						</li>
+						<li class="yxyj">
+							<a href="#">影像印记</a>
+						</li>
+						<li class="wdmz">
+							<a href="#">我的名字</a>
+						</li>
+						<li class="stwhj">
+							<a href="#">社团文化节</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="contain">
+				
+			</div>
+			<div class="footer">
+				<div class="stu_union">
+					<a href="#">
+						<img src="img/footer_01.png"/>
+						<p>学生会</p>
+					</a>
+				</div>
+				<div class="league">
+					<a href="#">
+						<img src="img/footer_02.png"/>
+						<p>团委概况</p>
+					</a>
+				</div>
+				<div class="team">
+					<a href="#">
+						<img src="img/footer_03.png"/>
+						<p>团队介绍</p>
+					</a>
+				</div>
+				<div class="wechat">
+					<a href="#"><img src="img/footer_04.png"/></a>
+				</div>
+				<div class="sina">
+					<a href="#"><img src="img/footer_05.png"/></a>
+				</div>
+				<div class="tencent">
+					<a href="#"><img src="img/footer_06.png"/></a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		pageResize();
+	</script>
+
 </html>
